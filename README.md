@@ -116,7 +116,7 @@ USE your_database;
 ```
 Executes SQL statements from the specified script file in the currently selected database.
 ```bash
-SOURCE /path/to/your/jobmgtstage.sql;
+SOURCE /path/to/your/abc.sql;
 ```
 
 ## Configure Git user name:
