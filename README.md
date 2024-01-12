@@ -5,6 +5,8 @@ A few examples of useful commands and/or tasks.
 
 ## Getting Started 
 
+rmdir (Remove Directory):
 ```bash
-npm install react-parallax-tilt
+rmdir directory_name
 ```
+
