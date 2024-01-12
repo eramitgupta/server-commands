@@ -88,3 +88,17 @@ Opens the default site configuration file for editing.
 ```bash
 sudo nano /etc/nginx/sites-available/default
 ```
+## Database
+
+Initiates a MySQL session, prompting for the password of the specified user.
+```bash
+mysql -u root -p
+```
+Selects a specific database for subsequent SQL queries.
+```bash
+USE your_database;
+```
+Executes SQL statements from the specified script file in the currently selected database.
+```bash
+SOURCE /path/to/your/jobmgtstage.sql;
+```
