@@ -88,6 +88,22 @@ Opens the default site configuration file for editing.
 ```bash
 sudo nano /etc/nginx/sites-available/default
 ```
+
+php.ini
+```bash
+sudo nano /etc/php/8.2/fpm/php.ini
+```
+memory_limit:
+upload_max_filesize:
+post_max_size:
+max_execution_time:
+Restart PHP-FPM:
+
+```bash
+sudo systemctl restart php7.4-fpm
+sudo systemctl restart nginx
+```
+
 ## Database
 
 Initiates a MySQL session, prompting for the password of the specified user.
@@ -113,5 +129,3 @@ Sets your Git user email to 'info.eramitgupta@gmail.com'. Replace 'info.eramitgu
 ```bash
 git config user.email 'info.eramitgupta@gmail.com'
 ```
-
-
