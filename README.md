@@ -102,3 +102,16 @@ Executes SQL statements from the specified script file in the currently selected
 ```bash
 SOURCE /path/to/your/jobmgtstage.sql;
 ```
+
+## Configure Git user name:
+
+Sets your Git user name to 'eramitgupta'. Replace 'eramitgupta' with your actual Git user name
+```bash
+git config user.name 'eramitgupta'
+```
+Sets your Git user email to 'info.eramitgupta@gmail.com'. Replace 'info.eramitgupta@gmail.com' with your actual Git email address.
+```bash
+git config user.email 'info.eramitgupta@gmail.com'
+```
+
+
