@@ -42,3 +42,49 @@ sudo dpkg -i
 sudo dpkg -i package_file.deb
 ```
 
+## Nginx
+
+Provides the current status and information about Nginx.
+```bash
+sudo systemctl status nginx
+```
+Monitors real-time error logs for Nginx.
+```bash
+sudo tail -f /var/log/nginx/error.log
+```
+Monitors real-time access logs for Nginx.
+```bash
+sudo tail -f /var/log/nginx/access.log
+```
+Initiates the Nginx web server stop or start
+```bash
+sudo systemctl start nginx
+```
+Restarts Nginx to apply configuration changes without stopping the service
+```bash
+sudo systemctl restart nginx
+```
+Reloads the Nginx configuration, preserving active connections.
+```bash
+sudo systemctl reload nginx
+```
+Verifies the syntax of the Nginx configuration files.
+```bash
+sudo nginx -t
+```
+Opens the main Nginx configuration file for editing.
+```bash
+sudo nano /etc/nginx/nginx.conf
+```
+Checks the configuration syntax and reloads Nginx if the syntax is correct.
+```bash
+sudo nginx -t && sudo systemctl reload nginx
+```
+Opens the default site configuration file for editing.
+```bash
+sudo nano /etc/nginx/sites-available/default
+```
+Opens the default site configuration file for editing.
+```bash
+sudo nano /etc/nginx/sites-available/default
+```
