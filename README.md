@@ -119,6 +119,13 @@ Executes SQL statements from the specified script file in the currently selected
 SOURCE /path/to/your/abc.sql;
 ```
 
+### laravel valet 
+change php v one domain 
+
+```bash
+ valet isolate php@8.2 --site "domainName" --secure
+```
+
 ## Configure Git user name:
 
 Sets your Git user name to 'eramitgupta'. Replace 'eramitgupta' with your actual Git user name
